@@ -3,7 +3,7 @@ import illustrationImg from '../../assets/Illustration.png'
 const Hero = () => {
   return (
     <section className="mt-12 mb-12 flex">
-      <div className="hero-heading w-1/3 flex flex-col gap-y-4 my-auto">
+      <div className="hero-heading w-1/3 flex flex-col gap-y-4 my-auto basis-1/2">
         <h1 className="text-[Bely Display] text-5xl text-Black font-bold">A new model for open collaboration</h1>
         <p className='text-Gray'>Run an organization where members get rewarded for their contributions with fractional ownership.</p>
         <button className="px-5 py-3 bg-Green rounded-md text-white w-[219px]">Request Early Access</button>
