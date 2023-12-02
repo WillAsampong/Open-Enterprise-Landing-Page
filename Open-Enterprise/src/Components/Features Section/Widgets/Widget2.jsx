@@ -9,7 +9,7 @@ const Widget2 = () => {
         </div>
         <div className="name-title">
             <div className="name">
-                <h4>Jassir Jonis</h4>
+                <h4 className='font-bold text-xl'>Jassir Jonis</h4>
             </div>
             <div className="title">
                 <p>Pre-seed angel investor</p>
@@ -17,7 +17,7 @@ const Widget2 = () => {
         </div>
     </div>
     <p>Hey guys, love what you’re doing and I’m convinced that together we’ll achieve amazing things.</p>
-    <div className="flex justify-around">
+    <div className="flex justify-between">
         <div className="commit">
             <p>COMMIT</p>
             <p>10,000 DAI</p>
@@ -26,10 +26,8 @@ const Widget2 = () => {
             <p>SHARES</p>
             <p>20</p>
         </div>
-    </div>
-    <div className="widget-button">
-        <button className="block bg-Black text-White px-16 py-2">Go to vote</button>
-    </div>
+    </div>    
+    <button className="bg-Black text-White px-12 rounded-md py-2">Go to vote</button>
     </div>
   )
 }
